@@ -70,7 +70,7 @@ automation-test/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/automation-test.git
+git clone [https://github.com/your-username/automation-test](https://github.com/GehadAshry/BasicAutomationTest).git
 cd automation-test
 ```
 
