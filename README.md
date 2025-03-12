@@ -26,34 +26,21 @@ This project is an **automated test suite** designed to validate the functionali
 ---
 
 ## Project Structure
-automation-test/
+automation-test \
 
-├── src/
-
-│ ├── main/
-
-│ │ └── java/
-
-│ │ └── WebForm/
-
-│ │ ├── WebFormPage.java # Page Object for the web form
-
-│ │ └── FormSubmittedPage.java # Page Object for the submission confirmation page
-
-│ └── test/
-
-│ └── java/
-
-│ ├── BaseTest/
-
-│ │ └── SetUpTest.java # Test setup and teardown
-
-│ └── FillFormTest/
-
-│ └── FillFormTest.java # Test cases for the web form
-
-├── pom.xml # Maven configuration file
-
+├── src \
+│ ├── main \
+│ │ └── java \
+│ │ └── WebForm \
+│ │ ├── WebFormPage.java # Page Object for the web form \
+│ │ └── FormSubmittedPage.java # Page Object for the submission confirmation page \
+│ └── test \
+│ └── java \
+│ ├── BaseTest \
+│ └── SetUpTest.java # Test setup and teardown \
+│ └── FillFormTest \
+│ └── FillFormTest.java # Test cases for the web form \
+├── pom.xml # Maven configuration file \
 └── README.md # Project documentation
 
 
